@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Raleway:wght@900&family=SUSE:wght@100..800&family=Space+Grotesk:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=SUSE:wght@100..800&family=Space+Grotesk:wght@700&display=swap');
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Space Grotesk';
+    background: url(milkybluey.jpg);
+    background-size: cover; /* Make the image cover the entire background */
+    background-attachment: fixed; /* Keeps the image in place when scrolling */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  #timer {
+    font-size: 100px;
+    margin-bottom: 20px;
+    background: linear-gradient(to right, #002f3c, #af9bff); /* Gradient color */
+    -webkit-background-clip: text; /* Clip the gradient to the text */
+    -webkit-text-fill-color: transparent; /* Make the text transparent so the gradient shows */
+    text-fill-color: transparent; /* Standard property for non-webkit browsers */
+  }
+  
+  .progress-bar {
+    width: 100%;
+    height: 10px;
+    background-color: #f3f3f3;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+
+  .progress {
+    height: 100%;
+    background-color: #4caf50; /* Progress bar color */
+    width: 0%;
+    transition: width 0.5s ease;
+  }
+  
+  .buttons button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-family: Montserrat;
+    font-size: 24px;
+    border: none;
+    background: rgb(0, 0, 0, 0.5); /* 50% transparent */
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .buttons button:hover {
+    background-color: #5c5c5c;
+  }
+
+  .buttons img{
+    width: 50%;
+    height: 25%;
+    display: inline;
+  }
